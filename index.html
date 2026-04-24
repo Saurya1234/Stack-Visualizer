@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stack Visualizer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Stack Visualizer</h1>
+    <p>LIFO (Last In First Out)</p>
+    <div class="controls">
+        <input type="text" id="value" placeholder="Enter value">
+<button onclick="pushItem()">Push</button>
+<button onclick="popItem()">Pop</button>
+<button onclick="peekItem()">Peek</button>
+<button onclick="isEmpty()">Is Empty?</button>
+    </div>
+    <div id="message"></div>
+    <div id="stack"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
